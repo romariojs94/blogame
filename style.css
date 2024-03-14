@@ -1,0 +1,76 @@
+/* RESPONSIVO */
+
+@media (min-width: 320px) {
+	.flex {
+		justify-content: space-between;
+	}
+}
+@media (min-width: 480px) {
+	.flex {
+		justify-content: space-between;
+	} 
+	.marca img {
+		width: 220px;
+		margin: auto;
+	}
+	.mega-menu {
+		display: block;
+		margin: 40px 0;
+	}
+	.mega-menu ul {
+		display: flex;
+		justify-content: center;
+		gap: 3rem;
+	}
+	.mega-menu ul li a {
+		color: #100f0f;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 28px;
+	
+	
+		font-family: "Nunito", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+	}
+	.galeria {  
+		padding-top: 0;
+	}
+	.galeria-item img {
+		height: auto;
+	}
+	.rodape {
+		padding-top: 24px;
+		padding-bottom: 24px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.rodape-menu {
+		margin-top: 1.5rem;
+		display: flex;
+		gap: 1rem;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+
+}
+@media (min-width: 800px) {
+	.social {
+		display: block;	
+	}
+	.galeria-item img {
+		height: 500px;
+	}
+	.galeria {  
+		padding-top: 0;
+		display: grid;
+		gap: 40px;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		grid-template-areas:
+			"div1 div2 div3"
+			"div4 div4 div4";
+	}
+}

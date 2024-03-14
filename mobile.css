@@ -1,0 +1,50 @@
+.social {
+	display: none;	
+}
+.marca img {
+	width: 130px;
+}
+.mega-menu {
+	display: none;
+}
+
+.galeria {  
+	padding-top: 30px;
+	display: grid;
+	gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-areas:
+    "div1"
+		"div2"
+		"div3"
+    "div4";
+}
+
+.rodape {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rodape .language {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.rodape-menu {
+	margin-top: 1.5rem;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	align-items: center;
+}
+.rodape-menu li a {
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 0;
+}
